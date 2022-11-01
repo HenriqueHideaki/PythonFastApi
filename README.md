@@ -16,7 +16,7 @@ pip install fastapi
 pip install "uvicorn[standard]"
 ```
 
-## Usage
+## Create
 
 ```python
 import foobar
@@ -37,6 +37,20 @@ def read_root():
 def read_item(item_id: int, q: Union[str, None] = None):
     return {"item_id": item_id, "q": q}
 ```
+
+##Run Server
+
+```bash
+$uvicorn main:app --reload
+
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [28720]
+INFO:     Started server process [28722]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+```
+
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
