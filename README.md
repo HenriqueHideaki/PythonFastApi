@@ -14,11 +14,12 @@ FastAPI é um framework web moderno e rápido (de alto desempenho) para construi
 - Postgres
 - API MercadoBitcoin
 
-## Instalação
+## Preparando o ambiente de desenvolvimento
 
-Usando o gerenciador de pacostes pip [pip](https://pip.pypa.io/en/stable/) para instalar o frameqork FastAPI.
+Usando o gerenciador de pacostes pip [pip](https://pip.pypa.io/en/stable/).
 
 ```bash
+pip install pipenv
 pip install fastapi
 ```
 ```bash
