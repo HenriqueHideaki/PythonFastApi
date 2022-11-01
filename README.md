@@ -10,7 +10,10 @@ FastAPI é um framework web moderno e rápido (de alto desempenho) para construi
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
 ```bash
-pip install foobar
+pip install fastapi
+```
+```bash
+pip install "uvicorn[standard]"
 ```
 
 ## Usage
