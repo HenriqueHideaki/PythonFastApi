@@ -1,7 +1,7 @@
 
 # Projeto Python com FastAPI
 
-![alt text]([https://github.com/HenriqueHideaki/PythonFastApi/blob/main/FastApi.png])
+![alt text](https://github.com/HenriqueHideaki/PythonFastApi/blob/main/FastApi.png)
 
 FastAPI é um framework web moderno e rápido (de alto desempenho) para construir APIs com Python 3.7+ baseado em dicas de tipo Python padrão..
 
