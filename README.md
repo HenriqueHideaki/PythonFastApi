@@ -57,6 +57,13 @@ Você verá a resposta JSON como:
 ```Json
 {"item_id": 5, "q": "somequery"}
 ```
+Você acabou de criar uma API que:
+
+Recebe requisições HTTP nas rotas / e /items/{item_id}.
+Ambas rotas fazem operações GET (também conhecido como métodos HTTP).
+A rota /items/{item_id} tem um parâmetro de rota item_id que deve ser um int.
+A rota /items/{item_id} tem um parâmetro query q str opcional.
+
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
