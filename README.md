@@ -28,7 +28,7 @@ pipenv shell
 pipenv install fastapi
 ```
 ```bash
-pip install "uvicorn[standard]"
+pipenv install "uvicorn[standard]"
 ```
 
 ## Criação
