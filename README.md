@@ -31,6 +31,8 @@ pipenv install fastapi
 pipenv install "uvicorn[standard]"
 ```
 
+Obs: Selecionar o interpretador Python correto do seu ambiente virtual
+
 ## Criação
 
 ```python
@@ -56,7 +58,7 @@ def read_item(item_id: int, q: Union[str, None] = None):
 ## Rodando o servidor
 
 ```bash
-$uvicorn main:app --reload
+$uvicorn main:app --port 8080 --reload
 
 INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
 INFO:     Started reloader process [28720]
