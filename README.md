@@ -7,6 +7,10 @@ FastAPI é um framework web moderno e rápido (de alto desempenho) para construi
 
 [FastAPILink](https://fastapi.tiangolo.com/)
 
+## Dependências
+[] - Docker
+
+
 ## Instalação
 
 Usando o gerenciador de pacostes pip [pip](https://pip.pypa.io/en/stable/) para instalar o frameqork FastAPI.
