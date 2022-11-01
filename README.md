@@ -8,8 +8,11 @@ FastAPI é um framework web moderno e rápido (de alto desempenho) para construi
 [FastAPILink](https://fastapi.tiangolo.com/)
 
 ## Dependências
-[] - Docker
-
+- Docker
+- Docker Compose
+- Pipenv
+- Postgres
+- API MercadoBitcoin
 
 ## Instalação
 
