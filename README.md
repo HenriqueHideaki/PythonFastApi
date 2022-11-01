@@ -16,11 +16,16 @@ FastAPI é um framework web moderno e rápido (de alto desempenho) para construi
 
 ## Preparando o ambiente de desenvolvimento
 
-Usando o gerenciador de pacostes pip [pip](https://pip.pypa.io/en/stable/).
+Usando o gerenciador de pacostes [pip](https://pip.pypa.io/en/stable/).
 
 ```bash
 pip install pipenv
-pip install fastapi
+```
+```bash
+pipenv shell
+```
+```bash
+pipenv install fastapi
 ```
 ```bash
 pip install "uvicorn[standard]"
