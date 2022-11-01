@@ -5,9 +5,9 @@ FastAPI é um framework web moderno e rápido (de alto desempenho) para construi
 
 [FastAPILink](https://fastapi.tiangolo.com/)
 
-## Installation
+## Instalação
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install FastAPI.
+Usando o gerenciador de pacostes pip [pip](https://pip.pypa.io/en/stable/) para instalar o frameqork FastAPI.
 
 ```bash
 pip install fastapi
@@ -16,7 +16,7 @@ pip install fastapi
 pip install "uvicorn[standard]"
 ```
 
-## Create
+## Criação
 
 ```python
 import foobar
@@ -38,7 +38,7 @@ def read_item(item_id: int, q: Union[str, None] = None):
     return {"item_id": item_id, "q": q}
 ```
 
-##Run Server
+## Rodando o servidor
 
 ```bash
 $uvicorn main:app --reload
@@ -50,7 +50,13 @@ INFO:     Waiting for application startup.
 INFO:     Application startup complete.
 ```
 
+## Verifique
+Abra seu navegador em http://127.0.0.1:8000/items/5?q=somequery.
 
+Você verá a resposta JSON como:
+```Json
+{"item_id": 5, "q": "somequery"}
+```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
